@@ -1,8 +1,5 @@
 # Jupyter Lab and Jupyter Notebook
 
-### matt.grossi@noaa.gov
-### November 2024
-
 Jupyter Notebooks (file extension `.ipynb`) are versatile web-based platform for interactively running computer code (most commonly Python, but also **R**, Julia, and others), creating markdown, displaying equations, data visualization, and many other computer and data science tasks. Jupyter Lab is a web-based service used to open and run Jupyter Notebooks. Once Jupyter Lab is set up, notebooks are convenient and easy to use, but initial configuration can be tricky. Here are some ways to get up and running with Jupyter Lab on a local computer, presented in order of ease and preference. Text in code cells are intended to be entered into a command line terminal program.
 
 ### Method 1: Docker
