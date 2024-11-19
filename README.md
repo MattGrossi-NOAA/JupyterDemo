@@ -1,11 +1,9 @@
----
-title: Jupyter Lab and Jupyter Notebook
-subtitle: Demonstration of how to configure and use Jupyter Lab and Jupyter Notebooks on a local computer
-author: matt.grossi@noaa.gov
-date: November 2024
----
+# Jupyter Lab and Jupyter Notebook
 
-Jupyter Notebooks (file extension `.ipynb`) are versitile web-based platform for interactively running computer code (most commonly Python), creating markdown, displaying equations, data visualization, and many other things. Jupyter Lab is a web-based service used to open and run Jupyter Notebooks. Once Jupyter Lab is set up, notebooks are convenient and easy to use, but initial configuration can be tricky. Here are some ways to get up and running with Jupyer Lab on a local computer:
+### matt.grossi@noaa.gov
+### November 2024
+
+Jupyter Notebooks (file extension `.ipynb`) are versatile web-based platform for interactively running computer code (most commonly Python, but also **R**, Julia, and others), creating markdown, displaying equations, data visualization, and many other computer and data science tasks. Jupyter Lab is a web-based service used to open and run Jupyter Notebooks. Once Jupyter Lab is set up, notebooks are convenient and easy to use, but initial configuration can be tricky. Here are some ways to get up and running with Jupyter Lab on a local computer, presented in order of ease and preference. Text in code cells are intended to be entered into a command line terminal program.
 
 ### Method 1: Docker
 
@@ -30,19 +28,15 @@ With [Visual Studio Code](https://code.visualstudio.com/) (VS Code) installed an
 
 Click the blue button in the bottom left corner of VS Code -- the one that looks like two "L's" -- and then select "Reopen in container..." from the dropdown menu.
 
-::: {.callout-note}
+:bulb: Note: If a development container already exists in this directory, a popup prompt about reopening in a container may appear in the lower right corner of VS Code upon opening the folder. This can be used instead of the blue button.
 
-If a development container already exists in this directory, a popup prompt about reopening in a container may appear in the lower right corner of VS Code upon opening the folder. This can be used instead of the blue button.
-
-:::
-
-**First time only:** Respond to the prompts that appear in the command palatte that appears in the top of the window:
+**First time only:** Respond to the prompts in the command palatte that appears in the top of the window:
 
 * "Add configuration to workspace"
 * "From 'Dockerfile'"
 * Click "OK" twice
 
-When the container builds and reopens, click the "Extensions" icon in the left menu (looks like four blocks), type "Quarto" in the search box, and click "Install in Dev Container" to add the Quarto extension. This is used for document formatting. When finished, return to the file explorer.
+When the container builds and reopens, click the "Extensions" icon in the left menu (looks like four blocks), type "Quarto" in the search box, and click "Install in Dev Container" to add the Quarto extension. This is not optional and not necessary for Jupyter but can be used for document formatting. When finished, return to the file explorer.
 
 Open this Jupyter notebook from the file explorer and run as normal.
 
